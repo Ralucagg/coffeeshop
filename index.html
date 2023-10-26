@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Coffee Shop - Best Coffee in Town</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#book">Reservation</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="home" id="home">
+        <h1>Cozy Corner Café</h1>
+        <h3>Espresso Yourself Here</h3>
+    </section>
+    <section class="about" id="about">
+        <div class="row">
+            <div class="column">
+                <h2>About Us</h2>
+                <h3>Welcome to 'Cozy Corner Café' where every sip is a journey.</h3>
+                <p>Our cozy coffee shop is a warm and inviting space where the rich, enticing aroma of freshly roasted beans
+                    welcomes you. With a menu curated to satisfy every coffee connoisseur, from artisanal espressos to
+                    velvety lattes and specialty brews, we cater to all tastes. Our baristas are passionate about their
+                    craft, ensuring each cup is a work of art. Complement your brew with delectable pastries, made with love
+                    in our in-house bakery. Whether you're catching up with friends, working, or simply seeking a moment of
+                    tranquility, 'Cozy Corner Café' is your perfect hideaway for exceptional coffee and delightful
+                    experiences.</p>
+            </div>
+            <div class="column">
+                <img src="https://img.freepik.com/premium-photo/coffee-cup-sits-table-coffee-shop_865967-26031.jpg"
+                    alt="About Us Image">
+            </div>
+        </div>
+    </section>
+    <section class="menu" id="menu">
+        <h2>Coffee Menu</h2>
+        <div class="button-container">
+            <button id="Espresso">Espresso Classics</button>
+            <button id="Cappuccino">Cappuccino and Lattes</button>
+            <button id="Cold">Cold Brew and More</button>
+            <button id="Signature">Signature Blends</button>
+        </div>
+        <div class="row">
+            <div class="column">
+                <img src="https://parachutecoffee.com/cdn/shop/articles/Untitled_design_11_1200x1200.png?v=1670859015">
+            </div>
+            <div class="column">
+                <h3>Espresso Classics</h3>
+                <ul id="myList">
+                    <li id="li1">Espresso - $2.50</li>
+                    <li id="li2">A concentrated coffee shot with a bold and intense flavor. Perfect for those who appreciate the pure essence of coffee.</li>
+                    <li id="li1">Double Espresso - $3.50</li>
+                    <li id="li2">Twice the pleasure of an espresso shot. For those seeking a stronger caffeine kick to jumpstart their day.</li>
+                    <li id="li1">Macchiato - $3.00</li>
+                    <li id="li2">A delightful combination of espresso and a dollop of frothy milk, creating a harmonious balance of bitterness and creaminess.</li>
+                    <li id="li1">Americano - $3.00</li>
+                    <li id="li2">An Americano is a simple yet satisfying coffee. It's made by diluting espresso with hot water, resulting in a milder and larger cup.</li>
+                    <li id="li1">Luscious Lattes - $4.50</li>
+                    <li id="li2">Indulge in the velvety goodness of our lattes. These rich and creamy concoctions come in various flavors, making each sip a luxurious experience.</li>
+                </ul>
+            </div>
+        </div>
+    </section>    
+    <section class="book" id="book">
+        <h2>Book a Table</h2>
+        <p>Swing by for a cup of coffee</p>
+        <form id="reservation-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="time">Time:</label>
+            <input type="time" id="time" name="time" required>
+
+            <label for="guests">Number of Guests:</label>
+            <input type="number" id="guests" name="guests" required>
+
+            <label for="special-requests">Special Requests:</label>
+            <textarea id="special-requests" name="special-requests" rows="4"></textarea>
+            <br>
+            <button type="submit" id="reserve">Submit Reservation</button>
+        </form>        
+    </section>
+    <section class="gallery" id="gallery">
+        <h2>Gallery</h2>
+        <ul>
+            <li>
+                <img src="https://www.posist.com/restaurant-times/wp-content/uploads/2023/07/How-To-Start-A-Coffee-Shop-Business-A-Complete-Guide.jpg" alt="Image 1">
+            </li>
+            <li>
+                <img src="https://cdn.5280.com/2023/06/HudsonHill_credit-Connor-Stehr-960x640.jpg" alt="Image 2">
+            </li>
+            <li>
+                <img src="https://connorgroup.com/static/4bb7a12e56a4061b84e055b97ede6f78/cd40e/coffee-shops-near-our-st-louis-park-apartments.jpg" alt="Image 2">
+            </li>
+            <li>
+                <img src="https://www.sevenmiles.com.au/cdn/shop/articles/open_cafe.jpg?v=1674381938&width=1100" alt="Image 4">
+            </li>
+            <li>
+                <img src="https://www.solopress.com/blog/wp-content/uploads/2013/08/coffee_shop_sign.jpg" alt="Image 5">
+            </li>
+            <li>
+                <img src="https://d2fdt3nym3n14p.cloudfront.net/venue/2415/gallery/6368/conversions/14368720_842992722504382_6788893222596479201_n-big.jpg" alt="Image 6">
+            </li>
+        </ul>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions or feedback? Reach out to us!</p>
+        <p><br>
+            <b>Contact Information:</b><br>
+            <br><br>
+            Phone: (123) 456-7890<br>
+            Email: info@coffeeshop.com<br>
+            <b>Visit Us:</b><br>
+            <br>
+            123 Main Street<br>
+            City, State 12345<br>
+            United States<br>
+            <br><br><br><br>
+        </p>
+        <h3>We look forward to hearing from you and serving you the best coffee in town!</h3>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Your Coffee Shop</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
